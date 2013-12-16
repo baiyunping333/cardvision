@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E809AC185F32840001CC61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AB185F32840001CC61 /* Foundation.framework */; };
+		87E809AE185F32850001CC61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AD185F32850001CC61 /* CoreGraphics.framework */; };
+		87E809B0185F32850001CC61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AF185F32850001CC61 /* UIKit.framework */; };
+		87E809B6185F32850001CC61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E809B4185F32850001CC61 /* InfoPlist.strings */; };
+		87E809B8185F32850001CC61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809B7185F32850001CC61 /* main.m */; };
+		87E809BC185F32850001CC61 /* CDVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809BB185F32850001CC61 /* CDVAppDelegate.m */; };
+		87E809BF185F32850001CC61 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E809BD185F32850001CC61 /* Main_iPhone.storyboard */; };
+		87E809C2185F32850001CC61 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E809C0185F32850001CC61 /* Main_iPad.storyboard */; };
+		87E809C5185F32850001CC61 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809C4185F32850001CC61 /* CDVViewController.m */; };
+		87E809C7185F32850001CC61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E809C6185F32850001CC61 /* Images.xcassets */; };
+		87E809CE185F32850001CC61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809CD185F32850001CC61 /* XCTest.framework */; };
+		87E809CF185F32850001CC61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AB185F32840001CC61 /* Foundation.framework */; };
+		87E809D0185F32850001CC61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AF185F32850001CC61 /* UIKit.framework */; };
+		87E809D8185F32850001CC61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E809D6185F32850001CC61 /* InfoPlist.strings */; };
+		87E809DA185F32850001CC61 /* cardvisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809D9185F32850001CC61 /* cardvisionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E809D1185F32850001CC61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87E809A0185F32840001CC61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E809A7185F32840001CC61;
+			remoteInfo = cardvision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87E809A8185F32840001CC61 /* cardvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E809AB185F32840001CC61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87E809AD185F32850001CC61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87E809AF185F32850001CC61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87E809B3185F32850001CC61 /* cardvision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cardvision-Info.plist"; sourceTree = "<group>"; };
+		87E809B5185F32850001CC61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E809B7185F32850001CC61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E809B9185F32850001CC61 /* cardvision-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cardvision-Prefix.pch"; sourceTree = "<group>"; };
+		87E809BA185F32850001CC61 /* CDVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVAppDelegate.h; sourceTree = "<group>"; };
+		87E809BB185F32850001CC61 /* CDVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVAppDelegate.m; sourceTree = "<group>"; };
+		87E809BE185F32850001CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		87E809C1185F32850001CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		87E809C3185F32850001CC61 /* CDVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		87E809C4185F32850001CC61 /* CDVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		87E809C6185F32850001CC61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87E809CC185F32850001CC61 /* cardvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E809CD185F32850001CC61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87E809D5185F32850001CC61 /* cardvisionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cardvisionTests-Info.plist"; sourceTree = "<group>"; };
+		87E809D7185F32850001CC61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E809D9185F32850001CC61 /* cardvisionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardvisionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E809A5185F32840001CC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E809AE185F32850001CC61 /* CoreGraphics.framework in Frameworks */,
+				87E809B0185F32850001CC61 /* UIKit.framework in Frameworks */,
+				87E809AC185F32840001CC61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E809C9185F32850001CC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E809CE185F32850001CC61 /* XCTest.framework in Frameworks */,
+				87E809D0185F32850001CC61 /* UIKit.framework in Frameworks */,
+				87E809CF185F32850001CC61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87E8099F185F32840001CC61 = {
+			isa = PBXGroup;
+			children = (
+				87E809B1185F32850001CC61 /* cardvision */,
+				87E809D3185F32850001CC61 /* cardvisionTests */,
+				87E809AA185F32840001CC61 /* Frameworks */,
+				87E809A9185F32840001CC61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E809A9185F32840001CC61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E809A8185F32840001CC61 /* cardvision.app */,
+				87E809CC185F32850001CC61 /* cardvisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E809AA185F32840001CC61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E809AB185F32840001CC61 /* Foundation.framework */,
+				87E809AD185F32850001CC61 /* CoreGraphics.framework */,
+				87E809AF185F32850001CC61 /* UIKit.framework */,
+				87E809CD185F32850001CC61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E809B1185F32850001CC61 /* cardvision */ = {
+			isa = PBXGroup;
+			children = (
+				87E809BA185F32850001CC61 /* CDVAppDelegate.h */,
+				87E809BB185F32850001CC61 /* CDVAppDelegate.m */,
+				87E809BD185F32850001CC61 /* Main_iPhone.storyboard */,
+				87E809C0185F32850001CC61 /* Main_iPad.storyboard */,
+				87E809C3185F32850001CC61 /* CDVViewController.h */,
+				87E809C4185F32850001CC61 /* CDVViewController.m */,
+				87E809C6185F32850001CC61 /* Images.xcassets */,
+				87E809B2185F32850001CC61 /* Supporting Files */,
+			);
+			path = cardvision;
+			sourceTree = "<group>";
+		};
+		87E809B2185F32850001CC61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E809B3185F32850001CC61 /* cardvision-Info.plist */,
+				87E809B4185F32850001CC61 /* InfoPlist.strings */,
+				87E809B7185F32850001CC61 /* main.m */,
+				87E809B9185F32850001CC61 /* cardvision-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E809D3185F32850001CC61 /* cardvisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				87E809D9185F32850001CC61 /* cardvisionTests.m */,
+				87E809D4185F32850001CC61 /* Supporting Files */,
+			);
+			path = cardvisionTests;
+			sourceTree = "<group>";
+		};
+		87E809D4185F32850001CC61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E809D5185F32850001CC61 /* cardvisionTests-Info.plist */,
+				87E809D6185F32850001CC61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E809A7185F32840001CC61 /* cardvision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E809DD185F32850001CC61 /* Build configuration list for PBXNativeTarget "cardvision" */;
+			buildPhases = (
+				87E809A4185F32840001CC61 /* Sources */,
+				87E809A5185F32840001CC61 /* Frameworks */,
+				87E809A6185F32840001CC61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardvision;
+			productName = cardvision;
+			productReference = 87E809A8185F32840001CC61 /* cardvision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87E809CB185F32850001CC61 /* cardvisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E809E0185F32850001CC61 /* Build configuration list for PBXNativeTarget "cardvisionTests" */;
+			buildPhases = (
+				87E809C8185F32850001CC61 /* Sources */,
+				87E809C9185F32850001CC61 /* Frameworks */,
+				87E809CA185F32850001CC61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E809D2185F32850001CC61 /* PBXTargetDependency */,
+			);
+			name = cardvisionTests;
+			productName = cardvisionTests;
+			productReference = 87E809CC185F32850001CC61 /* cardvisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E809A0185F32840001CC61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nils Fischer";
+				TargetAttributes = {
+					87E809CB185F32850001CC61 = {
+						TestTargetID = 87E809A7185F32840001CC61;
+					};
+				};
+			};
+			buildConfigurationList = 87E809A3185F32840001CC61 /* Build configuration list for PBXProject "cardvision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87E8099F185F32840001CC61;
+			productRefGroup = 87E809A9185F32840001CC61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E809A7185F32840001CC61 /* cardvision */,
+				87E809CB185F32850001CC61 /* cardvisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E809A6185F32840001CC61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E809C2185F32850001CC61 /* Main_iPad.storyboard in Resources */,
+				87E809C7185F32850001CC61 /* Images.xcassets in Resources */,
+				87E809BF185F32850001CC61 /* Main_iPhone.storyboard in Resources */,
+				87E809B6185F32850001CC61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E809CA185F32850001CC61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E809D8185F32850001CC61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E809A4185F32840001CC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E809BC185F32850001CC61 /* CDVAppDelegate.m in Sources */,
+				87E809C5185F32850001CC61 /* CDVViewController.m in Sources */,
+				87E809B8185F32850001CC61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E809C8185F32850001CC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E809DA185F32850001CC61 /* cardvisionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87E809D2185F32850001CC61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E809A7185F32840001CC61 /* cardvision */;
+			targetProxy = 87E809D1185F32850001CC61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87E809B4185F32850001CC61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E809B5185F32850001CC61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87E809BD185F32850001CC61 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E809BE185F32850001CC61 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		87E809C0185F32850001CC61 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E809C1185F32850001CC61 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		87E809D6185F32850001CC61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E809D7185F32850001CC61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87E809DB185F32850001CC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87E809DC185F32850001CC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E809DE185F32850001CC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardvision/cardvision-Prefix.pch";
+				INFOPLIST_FILE = "cardvision/cardvision-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87E809DF185F32850001CC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardvision/cardvision-Prefix.pch";
+				INFOPLIST_FILE = "cardvision/cardvision-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87E809E1185F32850001CC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cardvision.app/cardvision";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardvision/cardvision-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cardvisionTests/cardvisionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87E809E2185F32850001CC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cardvision.app/cardvision";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cardvision/cardvision-Prefix.pch";
+				INFOPLIST_FILE = "cardvisionTests/cardvisionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E809A3185F32840001CC61 /* Build configuration list for PBXProject "cardvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E809DB185F32850001CC61 /* Debug */,
+				87E809DC185F32850001CC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E809DD185F32850001CC61 /* Build configuration list for PBXNativeTarget "cardvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E809DE185F32850001CC61 /* Debug */,
+				87E809DF185F32850001CC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87E809E0185F32850001CC61 /* Build configuration list for PBXNativeTarget "cardvisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E809E1185F32850001CC61 /* Debug */,
+				87E809E2185F32850001CC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87E809A0185F32840001CC61 /* Project object */;
+}
