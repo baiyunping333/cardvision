@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Nils Fischer. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface CDVViewController : UIViewController
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8727CA2A1860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8727CA291860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.m */; };
 		87E809AC185F32840001CC61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AB185F32840001CC61 /* Foundation.framework */; };
 		87E809AE185F32850001CC61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AD185F32850001CC61 /* CoreGraphics.framework */; };
 		87E809B0185F32850001CC61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AF185F32850001CC61 /* UIKit.framework */; };
@@ -15,13 +16,21 @@
 		87E809BC185F32850001CC61 /* CDVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809BB185F32850001CC61 /* CDVAppDelegate.m */; };
 		87E809BF185F32850001CC61 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E809BD185F32850001CC61 /* Main_iPhone.storyboard */; };
 		87E809C2185F32850001CC61 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E809C0185F32850001CC61 /* Main_iPad.storyboard */; };
-		87E809C5185F32850001CC61 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809C4185F32850001CC61 /* CDVViewController.m */; };
 		87E809C7185F32850001CC61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E809C6185F32850001CC61 /* Images.xcassets */; };
 		87E809CE185F32850001CC61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809CD185F32850001CC61 /* XCTest.framework */; };
 		87E809CF185F32850001CC61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AB185F32840001CC61 /* Foundation.framework */; };
 		87E809D0185F32850001CC61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E809AF185F32850001CC61 /* UIKit.framework */; };
 		87E809D8185F32850001CC61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E809D6185F32850001CC61 /* InfoPlist.strings */; };
 		87E809DA185F32850001CC61 /* cardvisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E809D9185F32850001CC61 /* cardvisionTests.m */; };
+		87E80A3D185F36320001CC61 /* VIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A12185F36320001CC61 /* VIManager.m */; };
+		87E80A48185F36670001CC61 /* VICaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A47185F36670001CC61 /* VICaptureSessionManager.m */; };
+		87E80A4B185F37F40001CC61 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A4A185F37F40001CC61 /* CDVViewController.m */; };
+		87E80A4E185F453B0001CC61 /* CDVCardImageRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A4D185F453B0001CC61 /* CDVCardImageRecognizer.m */; };
+		87E80A67185F460B0001CC61 /* VIDataStructureElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A51185F460B0001CC61 /* VIDataStructureElement.m */; };
+		87E80A68185F460B0001CC61 /* VIList.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A54185F460B0001CC61 /* VIList.m */; };
+		87E80A69185F460B0001CC61 /* VIListElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A56185F460B0001CC61 /* VIListElement.m */; };
+		87E80A6C185F460B0001CC61 /* VIPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E80A5D185F460B0001CC61 /* VIPlayingCard.m */; };
+		87F7EDC11929395C000328BD /* VILogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7EDC01929395C000328BD /* VILogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8727CA281860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCardImageRecognizerPreviewLayer.h; sourceTree = "<group>"; };
+		8727CA291860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCardImageRecognizerPreviewLayer.m; sourceTree = "<group>"; };
 		87E809A8185F32840001CC61 /* cardvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E809AB185F32840001CC61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87E809AD185F32850001CC61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,13 +59,29 @@
 		87E809BE185F32850001CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		87E809C1185F32850001CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		87E809C3185F32850001CC61 /* CDVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
-		87E809C4185F32850001CC61 /* CDVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
 		87E809C6185F32850001CC61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		87E809CC185F32850001CC61 /* cardvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E809CD185F32850001CC61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		87E809D5185F32850001CC61 /* cardvisionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cardvisionTests-Info.plist"; sourceTree = "<group>"; };
 		87E809D7185F32850001CC61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87E809D9185F32850001CC61 /* cardvisionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardvisionTests.m; sourceTree = "<group>"; };
+		87E80A11185F36320001CC61 /* VIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIManager.h; sourceTree = "<group>"; };
+		87E80A12185F36320001CC61 /* VIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIManager.m; sourceTree = "<group>"; };
+		87E80A46185F36670001CC61 /* VICaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VICaptureSessionManager.h; path = VICaptureSessionManager/VICaptureSessionManager.h; sourceTree = "<group>"; };
+		87E80A47185F36670001CC61 /* VICaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VICaptureSessionManager.m; path = VICaptureSessionManager/VICaptureSessionManager.m; sourceTree = "<group>"; };
+		87E80A4A185F37F40001CC61 /* CDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		87E80A4C185F453B0001CC61 /* CDVCardImageRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCardImageRecognizer.h; sourceTree = "<group>"; };
+		87E80A4D185F453B0001CC61 /* CDVCardImageRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCardImageRecognizer.m; sourceTree = "<group>"; };
+		87E80A50185F460B0001CC61 /* VIDataStructureElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDataStructureElement.h; sourceTree = "<group>"; };
+		87E80A51185F460B0001CC61 /* VIDataStructureElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDataStructureElement.m; sourceTree = "<group>"; };
+		87E80A53185F460B0001CC61 /* VIList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIList.h; sourceTree = "<group>"; };
+		87E80A54185F460B0001CC61 /* VIList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIList.m; sourceTree = "<group>"; };
+		87E80A55185F460B0001CC61 /* VIListElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIListElement.h; sourceTree = "<group>"; };
+		87E80A56185F460B0001CC61 /* VIListElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIListElement.m; sourceTree = "<group>"; };
+		87E80A5C185F460B0001CC61 /* VIPlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPlayingCard.h; sourceTree = "<group>"; };
+		87E80A5D185F460B0001CC61 /* VIPlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPlayingCard.m; sourceTree = "<group>"; };
+		87F7EDBF1929395C000328BD /* VILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VILogger.h; sourceTree = "<group>"; };
+		87F7EDC01929395C000328BD /* VILogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VILogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +146,11 @@
 				87E809BD185F32850001CC61 /* Main_iPhone.storyboard */,
 				87E809C0185F32850001CC61 /* Main_iPad.storyboard */,
 				87E809C3185F32850001CC61 /* CDVViewController.h */,
-				87E809C4185F32850001CC61 /* CDVViewController.m */,
+				87E80A4A185F37F40001CC61 /* CDVViewController.m */,
+				87E80A4C185F453B0001CC61 /* CDVCardImageRecognizer.h */,
+				87E80A4D185F453B0001CC61 /* CDVCardImageRecognizer.m */,
+				8727CA281860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.h */,
+				8727CA291860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.m */,
 				87E809C6185F32850001CC61 /* Images.xcassets */,
 				87E809B2185F32850001CC61 /* Supporting Files */,
 			);
@@ -133,6 +164,7 @@
 				87E809B4185F32850001CC61 /* InfoPlist.strings */,
 				87E809B7185F32850001CC61 /* main.m */,
 				87E809B9185F32850001CC61 /* cardvision-Prefix.pch */,
+				87E809E3185F36320001CC61 /* VIOSFramework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +186,76 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		87E809E3185F36320001CC61 /* VIOSFramework */ = {
+			isa = PBXGroup;
+			children = (
+				87E80A4F185F460B0001CC61 /* Data Structures */,
+				87E80A05185F36320001CC61 /* Managers */,
+			);
+			path = VIOSFramework;
+			sourceTree = SOURCE_ROOT;
+		};
+		87E80A05185F36320001CC61 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87F7EDBE1929395C000328BD /* VILogger */,
+				87E80A11185F36320001CC61 /* VIManager.h */,
+				87E80A12185F36320001CC61 /* VIManager.m */,
+				87E80A49185F36750001CC61 /* VICaptureSessionManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		87E80A49185F36750001CC61 /* VICaptureSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				87E80A46185F36670001CC61 /* VICaptureSessionManager.h */,
+				87E80A47185F36670001CC61 /* VICaptureSessionManager.m */,
+			);
+			name = VICaptureSessionManager;
+			sourceTree = "<group>";
+		};
+		87E80A4F185F460B0001CC61 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				87E80A50185F460B0001CC61 /* VIDataStructureElement.h */,
+				87E80A51185F460B0001CC61 /* VIDataStructureElement.m */,
+				87E80A52185F460B0001CC61 /* VIList */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		87E80A52185F460B0001CC61 /* VIList */ = {
+			isa = PBXGroup;
+			children = (
+				87E80A53185F460B0001CC61 /* VIList.h */,
+				87E80A54185F460B0001CC61 /* VIList.m */,
+				87E80A55185F460B0001CC61 /* VIListElement.h */,
+				87E80A56185F460B0001CC61 /* VIListElement.m */,
+				87E80A5B185F460B0001CC61 /* VIPlayingCardPack */,
+			);
+			path = VIList;
+			sourceTree = "<group>";
+		};
+		87E80A5B185F460B0001CC61 /* VIPlayingCardPack */ = {
+			isa = PBXGroup;
+			children = (
+				87E80A5C185F460B0001CC61 /* VIPlayingCard.h */,
+				87E80A5D185F460B0001CC61 /* VIPlayingCard.m */,
+			);
+			path = VIPlayingCardPack;
+			sourceTree = "<group>";
+		};
+		87F7EDBE1929395C000328BD /* VILogger */ = {
+			isa = PBXGroup;
+			children = (
+				87F7EDBF1929395C000328BD /* VILogger.h */,
+				87F7EDC01929395C000328BD /* VILogger.m */,
+			);
+			name = VILogger;
+			path = VIOSFramework/VILogger;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -200,7 +302,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CDV;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Nils Fischer";
 				TargetAttributes = {
 					87E809CB185F32850001CC61 = {
@@ -255,8 +357,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E809BC185F32850001CC61 /* CDVAppDelegate.m in Sources */,
-				87E809C5185F32850001CC61 /* CDVViewController.m in Sources */,
+				87E80A3D185F36320001CC61 /* VIManager.m in Sources */,
+				87E80A6C185F460B0001CC61 /* VIPlayingCard.m in Sources */,
 				87E809B8185F32850001CC61 /* main.m in Sources */,
+				87E80A4E185F453B0001CC61 /* CDVCardImageRecognizer.m in Sources */,
+				87E80A4B185F37F40001CC61 /* CDVViewController.m in Sources */,
+				87E80A48185F36670001CC61 /* VICaptureSessionManager.m in Sources */,
+				87F7EDC11929395C000328BD /* VILogger.m in Sources */,
+				8727CA2A1860E64400DE453C /* CDVCardImageRecognizerPreviewLayer.m in Sources */,
+				87E80A68185F460B0001CC61 /* VIList.m in Sources */,
+				87E80A67185F460B0001CC61 /* VIDataStructureElement.m in Sources */,
+				87E80A69185F460B0001CC61 /* VIListElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +429,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +468,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -417,7 +526,6 @@
 		87E809E1185F32850001CC61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cardvision.app/cardvision";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -440,7 +548,6 @@
 		87E809E2185F32850001CC61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cardvision.app/cardvision";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -475,6 +582,7 @@
 				87E809DF185F32850001CC61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87E809E0185F32850001CC61 /* Build configuration list for PBXNativeTarget "cardvisionTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +591,7 @@
 				87E809E2185F32850001CC61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
